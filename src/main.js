@@ -1,19 +1,18 @@
 "use strict";
-exports.__esModule = true;
-var isbool_1 = require("./if/isbool");
-var isfunc_1 = require("./if/isfunc");
-var isnum_1 = require("./if/isnum");
-var isobj_1 = require("./if/isobj");
-var isstr_1 = require("./if/isstr");
-var issymb_1 = require("./if/issymb");
-/**
- * @author Minecodes
- */
-exports["default"] = {
-    isbool: isbool_1["default"],
-    isfunc: isfunc_1["default"],
-    isnum: isnum_1["default"],
-    isobj: isobj_1["default"],
-    isstr: isstr_1["default"],
-    issymb: issymb_1["default"]
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
 };
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.issymb = exports.isstr = exports.isobj = exports.isnum = exports.isfunc = exports.isbool = void 0;
+var isbool_1 = __importDefault(require("./if/isbool"));
+exports.isbool = isbool_1.default;
+var isfunc_1 = __importDefault(require("./if/isfunc"));
+exports.isfunc = isfunc_1.default;
+var isnum_1 = __importDefault(require("./if/isnum"));
+exports.isnum = isnum_1.default;
+var isobj_1 = __importDefault(require("./if/isobj"));
+exports.isobj = isobj_1.default;
+var isstr_1 = __importDefault(require("./if/isstr"));
+exports.isstr = isstr_1.default;
+var issymb_1 = __importDefault(require("./if/issymb"));
+exports.issymb = issymb_1.default;

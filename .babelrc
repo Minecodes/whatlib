@@ -1,8 +1,14 @@
 {
     "sourceRoot": "./src",
-    "compact": true,
+    "compact": false,
     "highlightCode": true,
     "presets": [
-        "@babel/preset-typescript"
+        "@babel/preset-typescript",
+        [
+            "@babel/preset-env",
+            {
+                "modules": "commonjs"
+            }
+        ]
     ]
 }

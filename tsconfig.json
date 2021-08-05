@@ -1,5 +1,12 @@
 {
     "include": [
         "./src/**/*"
-    ]
+    ],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "target": "ES5",
+        "lib": [
+            "ES2015"
+        ]
+    }
 }

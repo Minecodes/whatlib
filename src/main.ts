@@ -9,11 +9,11 @@ import issymb from "./if/issymb"
  * @author Minecodes
  */
 
-export default {
-    isbool: isbool,
-    isfunc: isfunc,
-    isnum: isnum,
-    isobj: isobj,
-    isstr: isstr,
-    issymb: issymb
+export {
+    isbool,
+    isfunc,
+    isnum,
+    isobj,
+    isstr,
+    issymb
 }
