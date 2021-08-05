@@ -1,6 +1,6 @@
 {
   "name": "whatlib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library for strange code, but it's working",
   "main": "lib/main.js",
   "repository": "https://github.com/Minecodes/whatlib",
