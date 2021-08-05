@@ -12,7 +12,7 @@ An multi function library for challenges and for coders that love to explore the
 
 `yarn add whatlib` or `npm i whatlib`
 
-## [Usage is on github.com/Minecodes/whatlib/docs](https://github.com/Minecodes/whatlib/docs)
+## [Usage is on github.com/Minecodes/whatlib/tree/main/docs](https://github.com/Minecodes/whatlib/tree/main/docs)
 
 ## Support ❤
 
