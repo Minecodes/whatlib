@@ -5,6 +5,10 @@ import isobj from "./if/isobj"
 import isstr from "./if/isstr"
 import issymb from "./if/issymb"
 
+/**
+ * @author Minecodes
+ */
+
 export default {
     isbool: isbool,
     isfunc: isfunc,

@@ -1,1 +1,1 @@
-export default (_)=>{return typeof _==="string"}
+export default (_)=>{return typeof _=="string"}

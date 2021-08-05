@@ -1,1 +1,1 @@
-export default (_)=>{return typeof _==="function"}
+export default (_)=>{return typeof _=="function"}

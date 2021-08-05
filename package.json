@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A library for strange code, but it's working",
   "main": "lib/main.js",
-  "repository": "https://github.com/Minecodes/whatlib.git",
+  "repository": "https://github.com/Minecodes/whatlib",
   "author": {
     "name": "Minecodes",
     "email": "minecodes13@gmail.com",
@@ -13,7 +13,8 @@
   "private": false,
   "scripts": {
     "tsc": "tsc",
-    "build": "babel src -d lib --minified"
+    "build": "babel src -d lib --minified --extensions \".ts\"",
+    "watch": "babel src -d lib --minified --extensions \".ts\" --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",

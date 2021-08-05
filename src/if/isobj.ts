@@ -1,1 +1,1 @@
-export default (_)=>{return typeof _==="object"}
+export default (_)=>{return typeof _=="object"}

@@ -1,5 +1,5 @@
 {
-    "sourceRoot": "src/",
+    "sourceRoot": "./src",
     "compact": true,
     "highlightCode": true,
     "presets": [

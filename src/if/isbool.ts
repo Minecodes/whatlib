@@ -1,1 +1,1 @@
-export default (_)=>{return typeof _==="boolean"}
+export default (_)=>{return typeof _=="boolean"}
