@@ -1,0 +1,8 @@
+{
+    "sourceRoot": "src/",
+    "compact": true,
+    "highlightCode": true,
+    "presets": [
+        "@babel/preset-typescript"
+    ]
+}

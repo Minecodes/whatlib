@@ -1,0 +1,24 @@
+{
+  "name": "whatlib",
+  "version": "1.0.0",
+  "description": "A library for strange code, but it's working",
+  "main": "lib/main.js",
+  "repository": "https://github.com/Minecodes/whatlib.git",
+  "author": {
+    "name": "Minecodes",
+    "email": "minecodes13@gmail.com",
+    "url": "https://github.com/Minecodes"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "tsc": "tsc",
+    "build": "babel src -d lib --minified"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "typescript": "^4.3.5"
+  }
+}
