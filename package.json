@@ -1,6 +1,6 @@
 {
   "name": "whatlib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library for strange code, but it's working",
   "main": "lib/main.js",
   "repository": "https://github.com/Minecodes/whatlib",
@@ -11,6 +11,16 @@
   },
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "what",
+    "whats",
+    "whatlib",
+    "whatslib",
+    "fun",
+    "challenge",
+    "help",
+    "Minecodes"
+  ],
   "scripts": {
     "tsc": "tsc",
     "build": "babel src -d lib --minified --extensions \".ts\"",
